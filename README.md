@@ -51,4 +51,4 @@ The data is stored in a MongoDB database due to its flexibility and ability to h
 ## Fact
 Indian healthcare sector is expected to grow rapidly, with a market value of around $280 billion and a predicted CAGR of 16-17%. Digital health technologies, such as telemedicine, electronic health records, and mobile health applications, are likely to play a key role in improving access to healthcare services and managing patient care. It becomes important to improve access to quality healthcare, reduce costs, and address financing and regulatory issues.
  
-*This is a work in progress (proof of concept developed for 13K medicines)*
+*This is a work in progress (proof of concept developed for 13K medicines and health care products)*
