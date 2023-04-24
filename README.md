@@ -4,7 +4,7 @@ This project involves end-to-end processes, including scraping, storing, cleanin
 * develop a pricing model for pharmacies, **Linear Regression**
 * predict substitutes for a medicine using descriptions, **Word2Vec Model**
 * classify medicines into FDA categories, **K-means Clustering**
-* do market research on online pharmaceutical market, **Exploratory Data Analysis**
+* market research on online pharmaceutical market, **Exploratory Data Analysis**
 
 ## Inspiration
 
