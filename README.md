@@ -12,7 +12,7 @@ One of the most prominent issues during the COVID-19 pandemic was the unavailabi
 
 ## Scraping 
 
-Scraped over 13K pages from the [1mg website](https://www.1mg.com/), an online pharmacy. The information scraped: 
+Scraped over 13K pages from the [1mg](https://www.1mg.com/), an online pharmacy. The information scraped: 
 
   * Name
   * Price
