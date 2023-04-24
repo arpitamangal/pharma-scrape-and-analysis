@@ -8,7 +8,7 @@ This project involves end-to-end processes, including scraping, storing, cleanin
 
 ## Inspiration
 
-One of the most prominent issues during the COVID-19 pandemic was the unavailability of medicines. A few suppliers dominate the pharmaceutical industry, and patients often pay more for medicines due to lack of knowledge. This project identifies substitutes from lesser-known brands and develops a pricing model based on product information. The project also classifies medicines and healthcare products into FDA's list of 40 categories. These models would help pharmacies improve inventory management and pricing strategies. The project is my aimed at improving access to quality healthcare services and reducing costs.
+One of the most prominent issues during the COVID-19 pandemic was the unavailability of medicines. A few suppliers dominate the pharmaceutical industry, and patients often pay more for medicines due to lack of knowledge. This project identifies substitutes from lesser-known brands and develops a pricing model based on product information. The project also classifies medicines and healthcare products into FDA's list of 40 categories. These models would help pharmacies improve inventory management and pricing strategies.
 
 ## Scraping 
 
