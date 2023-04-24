@@ -1,11 +1,18 @@
-# Pharma Scrape & Analysis
-### Scraping, Cleaning, Processing, and Analysing Pharmaceutical Data.
+# pharma-scrape-and-analysis
 
-The healthcare industry in India is rapidly growing. Customers now have a popular and convenient option to get healthcare products and services through online pharmacies and healthcare platforms like 1mg. These platforms provide a wide selection of products at affordable costs, as well as the ease of home delivery and online consultations with medical specialists.
+This project involves end-to-end processes, including scraping, storing, cleaning, exploring, and analyzing pharmaceutical data. The objective of the project is to: 
+* develop a pricing model for pharmacies, **Linear Regression**
+* predict substitutes for a medicine using descriptions, **Word2Vec Model**
+* classify medicines into FDA categories, **K-means Clustering**
+* do market research on online pharmaceutical market, **Exploratory Data Analysis**
 
+## Inspiration
 
-## Pharma Scrape
-The data for the analysis is scraped from the 1mg website using Beautiful Soup library in Python. The information scraped: 
+One of the most prominent issues during the COVID-19 pandemic was the unavailability of medicines. A few suppliers dominate the pharmaceutical industry, and patients often pay more for medicines due to lack of knowledge. This project identifies substitutes from lesser-known brands and develops a pricing model based on product information. The project also classifies medicines and healthcare products into FDA's list of 40 categories. These models would help pharmacies improve inventory management and pricing strategies. The project is my aimed at improving access to quality healthcare services and reducing costs.
+
+## Scraping 
+
+Scraped over 13K pages from the [1mg website](https://www.1mg.com/), an online pharmacy. The information scraped: 
 
   * Name
   * Price
@@ -17,28 +24,31 @@ The data for the analysis is scraped from the 1mg website using Beautiful Soup l
   * Mechanism of action
   * Benefits
   * Side effects
-  * Factbox
+  * Factbox 
      - Habit Forming
      - Therapeutic Class
      - Chemical Class
      - Action Class
   
-The scraped data is stored in a MongoDB database due to its flexibility and ability to handle data.
+## Storing 
+The data is stored in a MongoDB database due to its flexibility and ability to handle unstructured data.
 
-## Pharma Analysis
-With small pharmacies facing increased competition from multinational pharmacy chains and online pharmacy platforms, to remain competitive they need to be highly organized and use resources more efficiently. To support this we have developed several Proof-of-Concept algorithms which would allow small pharmacies to improve inventory management and develop competent pricing strategies. These algorithms have shown promising results and can be significantly improved upon with more resources. We are tackling 3 Objectives -
+## Exploratory Data Analysis
 
-* Perform market research (descriptive analytics) and answer the questions:
-  * Who are the top manufacturers that adopted to online pharmacies?
-  * Medicines related to which disease are mostly available online?
-  * Medicines of which disease is most expensive?
-  * Medicines of which therapeutic_class are most?
-* Build classification model to classify medicines and healthcare products according to the list of 40 general categories of medicines as listed by the FDA.
-* Build a pricing model which would allow small pharmacies to accurately predict market prices of medicines and decide on a competitive selling point.
-* Build an algorithm which can provide substitute recommendations for medicines based on their description and features, for better inventory management.
+* Which manufacturers have successfully adopted online pharmacy sales channels?
+* What types of medicines are commonly available for purchase online?
+* Which disease's medicines are typically the most expensive?
+* Which therapeutic classes of medicines are most frequently available for purchase online?
 
-Build an algorithm which can 
+## Tool & Technologies
+* Scraping: BeautifulSoup
+* Storing: Pymongo
+* Cleaning & Exploring: Pandas, Numpy, Matplotlib, Seaborn, NLTK
+* Model Building: Gensim (Word2Vec), Sklearn (Kmeans Clustering, LinearRegression)
 
-* This is a proof of concept developed for 500 medicines starting with each alphabet. 
-* Currently scraping rest of the data to extend the analysis.
+[![My Skills](https://skillicons.dev/icons?i=py,mongodb)](https://skillicons.dev) 
 
+## Fact
+Indian healthcare sector is expected to grow rapidly, with a market value of around $280 billion and a predicted CAGR of 16-17%. Digital health technologies, such as telemedicine, electronic health records, and mobile health applications, are likely to play a key role in improving access to healthcare services and managing patient care. It becomes important to improve access to quality healthcare, reduce costs, and address financing and regulatory issues.
+ 
+*This is a work in progress (proof of concept developed for 13K medicines)*
