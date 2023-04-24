@@ -1,4 +1,4 @@
-# pharma-scrape-and-analysis
+# Pharmaceutical Data: Scraping & Analysis
 
 This project involves end-to-end processes, including scraping, storing, cleaning, exploring, and analyzing pharmaceutical data. The objective of the project is to: 
 * develop a pricing model for pharmacies, **Linear Regression**
